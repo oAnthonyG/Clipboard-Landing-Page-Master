@@ -1,0 +1,44 @@
+@media screen and (max-width:375px){
+    body{
+        background-image: url(../images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+    }
+
+    .first-section{
+        width: 357px;
+
+    }
+    .second-section{
+        display: block;
+    }
+    .second-section img{
+        width: 350px;
+        height: 300px;
+    }
+    .third-section p{
+        width: 350px;
+    }
+    .third-section img{
+        width: 350px;
+        height: 300px;
+    }
+    .fourth-section{
+        display: block;
+    }
+    .fourth-section div{
+        display: block;
+    }
+    .logo-companies{
+        display: block;
+        width: 350px;
+        height: 500px;
+        margin-bottom: 60px;
+    }
+    .logo-companies img{
+        margin: 20px;
+    }
+
+    .fifth-section{
+        width: 350px;
+    }
+}
