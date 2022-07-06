@@ -131,12 +131,43 @@ p{
 }
 
 
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    background-color: hsl(210, 10%, 92%);;
+}
 
+.footer img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
 
+.footer .logo-social{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
 
+.list-footer a{
+    text-decoration: none;
+    color: var(--color-Dark-Grayish-Blue);
+    padding: 20px;
+    
+}
 
+a:hover{
+    color: var(--color-Strong-Cyan);
+}
 
-
+.logo-social{
+    cursor: pointer;
+}
+.logo-social:hover{
+   background-color: var(--color-Strong-Cyan);
+}
 
 
 
