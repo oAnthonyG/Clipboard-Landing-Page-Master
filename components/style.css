@@ -36,7 +36,7 @@ p{
     box-shadow: 0px 2px hsl(171, 73%, 23%);
 
     margin-left: 8px;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-bottom: 15px;
 
     color: white;
@@ -53,6 +53,7 @@ p{
 }
 
 .sub-title{
+    margin-top: 60px;
     font-size: 25px;
     font-weight: 600;
     color: var(--color-Dark-Grayish-Blue);
@@ -60,27 +61,66 @@ p{
 
 .second-section{
     display: flex;
+    margin-top: 40px;
 }
 .second-section article{
     margin-top: 100px ;
     width: 350px;
     margin-inline: auto;
     line-height: 30px;
-
 }
 .second-section img{
     width: 700px;
     height: 560px;
     margin-top: 40px;
 }
+.second-section h3{
+    color: var(--color-Dark-Grayish-Blue);
+}
 
+.third-section{
+    text-align: center;
+    margin-top: 90px;
+}
+.third-section img{
+    width: 700px;
+    height: 460px;
+    margin-top: 60px;
+}
+.third-section p{
+    margin-inline: auto;
+    width: 600px;
+}
 
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fourth-section div{
+    display: flex;
+    margin-top: 60px;
+}
 
+.fourth-section article{
+    width: 330px;
+    text-align: center;
+    margin: 20px;
+}
+.fourth-section h2, p{
+    line-height: 1.8;
+}
 
+.logo-companies{
+    margin-top: 60px;
+    width: 1100px;
+    margin-inline: auto;
+}
 
-
-
-
+.logo-companies img{
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 
 
