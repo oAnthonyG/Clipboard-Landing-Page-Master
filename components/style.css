@@ -58,11 +58,24 @@ p{
     color: var(--color-Dark-Grayish-Blue);
 }
 
-
-.second-section img{
-    width: 450px;
-    height: 400px;
+.second-section{
+    display: flex;
 }
+.second-section article{
+    margin-top: 100px ;
+    width: 350px;
+    margin-inline: auto;
+    line-height: 30px;
+
+}
+.second-section img{
+    width: 700px;
+    height: 560px;
+    margin-top: 40px;
+}
+
+
+
 
 
 
